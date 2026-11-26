@@ -1,0 +1,14 @@
+# Dépendances locales (moteur, jeu, mods) : tools/fetch_deps.sh
+.deps/
+# Serveur de développement headless : tools/server.sh
+.run/
+# Passages du runner de scénarios (mondes jetables, journaux, photos) : tools/headless/run.sh
+.headless/
+# Aperçus de textures (tools/pixelart.py preview)
+.cache/
+# Archives de livraison (tools/dist.sh)
+dist/
+tests/_tmp/
+__pycache__/
+*.pyc
+.DS_Store
